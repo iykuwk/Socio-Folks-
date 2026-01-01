@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: #f5f5f5;
+  }
+  header {
+    background: #111;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav a {
+    color: white;
+    margin-left: 1rem;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .hero {
+    background: url('/Group\ Photo.jpg') center/cover no-repeat;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(171, 212, 21);
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+    text-align: center;
+}
+  .hero h1 {
+    font-size: 4rem;
+  }
+  .hero p {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+  }
+  .hero button {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    background: #ff6a00;
+    color: rgb(97, 242, 244);
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+  }
+  .hero button:hover {
+    background: #e65a00;
+  }
+
+  a {
+    text-decoration: none;
+  }
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+  }
+  .card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    padding: 1.5rem;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+  }
+  /* Welcome section */
+.welcome-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 50px;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.welcome-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.welcome-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #111;
+}
+
+.welcome-text p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.read-more-btn {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: #b5092d;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 15px;
+  transition: background-color 0.3s ease;
+}
+.read-more-btn:hover {
+  background-color: #930822;
+}
+
+.welcome-image {
+  flex: 1;
+  min-width: 300px;
+}
+
+.welcome-image img {
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+}
+  
